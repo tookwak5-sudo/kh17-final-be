@@ -260,7 +260,7 @@ public class SecurityConfiguration {
 		config.setAllowedOrigins(List.of(
 			// 여기에 운영주소 넣어주면됨
 			"http://localhost:5173",
-			"http://52.79.242.143:8080"
+			"http://54.180.29.78:8080"
 		));
 		//[2] 허용할 HTTP 메소드 설정
 		config.setAllowedMethods(List.of(
