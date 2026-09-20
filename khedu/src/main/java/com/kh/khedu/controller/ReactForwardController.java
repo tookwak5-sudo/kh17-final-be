@@ -10,6 +10,5 @@ public class ReactForwardController {
 	@GetMapping("/**")
 	public String forward() {
 		return "forward:/index.html";
-		
 	}
 }
