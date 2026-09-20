@@ -206,8 +206,11 @@ public class SecurityConfiguration {
 			            RoleType.DESK.getCode(),
 			            RoleType.ADMIN.getCode()
 			        )
-
-
+			        
+			        // view 허용
+			        //뷰 허용
+					.requestMatchers(HttpMethod.GET, "/views/**").permitAll()
+			        
 			        // =========================================================
 			        // [8] 나머지
 			        // =========================================================
